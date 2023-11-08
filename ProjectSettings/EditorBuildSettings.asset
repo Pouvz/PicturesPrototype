@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/NonEuclidianGeometryTest/NonEuclidianTest.unity
-    guid: 6589869f4bf414b6cbd3f89061dddc97
+    path: Assets/Scenes/NightmarePromenade/NightmarePromenade.unity
+    guid: c28a48c7b96e34dcbbb9c450d2c5aa1a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

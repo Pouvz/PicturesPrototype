@@ -40,7 +40,7 @@ Library: /Users/luameyer/Desktop/Prototype/Temp/BurstOutput/tempburstlibs/arm64-
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/luameyer/Desktop/Prototype/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/AndroidPlayer
+--key-folder=/Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/luameyer/Desktop/Prototype/Library/Burst
 --output=/Users/luameyer/Desktop/Prototype/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -146,7 +146,7 @@ Library: /Users/luameyer/Desktop/Prototype/Temp/BurstOutput/tempburstlibs/arm64-
 --assembly-defines=UnityEngine;
 --generate-link-xml=Temp/burst.link.xml
 --temp-folder=/Users/luameyer/Desktop/Prototype/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/AndroidPlayer
+--key-folder=/Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/AndroidPlayer
 --decode-folder=/Users/luameyer/Desktop/Prototype/Library/Burst
 --output=/Users/luameyer/Desktop/Prototype/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
