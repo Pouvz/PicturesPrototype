@@ -6,11 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BirdPromenade/Bird_Promenade.unity
-    guid: d036d05ddefd14d2e9dadd07f3b6a065
-  - enabled: 1
-    path: Assets/Scenes/NightmarePromenade/NewNightmarePromenade.unity
-    guid: 4029423f7d9d24168b61f3fc7c91686d
+    path: Assets/Scenes/NightmarePromenade/NewewestNightmarePromenade.unity
+    guid: d5b6e4d80aaf47040a1ccf817d02a7d6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

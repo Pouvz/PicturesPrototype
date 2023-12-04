@@ -18,25 +18,29 @@ public class RoomCell : MonoBehaviour
 
     private void Awake()
     {
-        if (previousRoom != null)
+        if (previousRoom == null)
         {
-            gameObject.SetActive(false);
+            Enter();
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void Enter()
     {
-        Debug.Log("Triggered");
-        
         // The next cells are enabled
         foreach (RoomCell nextRoom in nextRooms)
         {
             nextRoom.gameObject.SetActive(true);
             
-            // The next cells of the next cells are disabled
+            // The next cells of the next cells are enabled
             foreach (RoomCell nextNextRoom in nextRoom.nextRooms)
             {
-                nextNextRoom.gameObject.SetActive(false);
+                nextNextRoom.gameObject.SetActive(enabled);
+                
+                // The next cells of the next cells of the next cells are disabled
+                foreach (RoomCell nextNextNextRoom in nextNextRoom.nextRooms)
+                {
+                    nextNextNextRoom.gameObject.SetActive(false);
+                }
             }
         }
         
